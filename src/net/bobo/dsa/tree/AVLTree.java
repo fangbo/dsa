@@ -244,8 +244,8 @@ public class AVLTree<T extends Comparable> {
         }
         Collections.shuffle(values);
 
-        Integer[] testValues = {5,4,10,7,11,9};
-        values = Arrays.asList(testValues);
+//        Integer[] testValues = {5,4,10,7,11,9};
+//        values = Arrays.asList(testValues);
         
         for(Integer value:values)
             System.out.print(value+"    ");
